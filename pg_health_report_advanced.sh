@@ -32,7 +32,7 @@
 #         |             |          | SELECT datname, etc.). Logged SQL skips.
 # 1.9.2   | 28-Jun-2025 | Clement  | Bloat Info now includes live/dead tuples,
 #         |             |          | mod count; improved pg_stat_statements filters.
-# 2.0-pre | 30-Jun-2025 | Clement  | Modularized output logic with render_section(),
+# 2.0-pre | 29-Jun-2025 | Clement  | Modularized output logic with render_section(),
 #         |             |          | DRY structure, ready for GitHub publication.
 ###############################################################################
 
