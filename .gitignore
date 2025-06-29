@@ -1,0 +1,8 @@
+.pgpass
+*.log
+*.html
+*.txt
+*.json
+*.tar.gz
+pg_health_reports/
+db_config.env
