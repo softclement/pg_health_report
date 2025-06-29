@@ -3,6 +3,27 @@
 ###############################################################################
 # PostgreSQL Health Report Generator (Modular & Enhanced)
 #
+# This script generates comprehensive health reports for PostgreSQL databases,
+# including bloat, unused indexes, long-running queries, vacuum stats, replication
+# lag, database sizes, temp file usage, slow queries, autovacuum activity,
+# index usage efficiency, buffer cache hit ratio, memory configuration, and more.   
+# It supports multiple output formats (HTML, JSON, text) and can be run in
+# recommended or full mode. 
+# It also includes secure handling of credentials via .pgpass and .env files.
+#        
+# Usage:
+# ./pg_health_report_advanced.sh [--report-mode=full|recommended] [--format=html|json|text] [--serve]       
+#           
+# Requirements:
+# - PostgreSQL client tools (psql)
+# - Access to the database with appropriate permissions
+# - Python 3 for serving HTML reports (optional)            
+# ------------------------------------------------------------------------------        
+
+# Author: Clement
+# LinkedIn: https://www.linkedin.com/in/softclement/
+# GitHub: https://github.com/softclement/pg_health_report
+
 # Version History:
 # ------------------------------------------------------------------------------
 # Version | Date        | Author   | Description
