@@ -47,8 +47,10 @@ Optional flags:
 
 Recommended Cronjob Setup
 Daily Report at 7 AM:
+
 0 7 * * * /home/postgres/pg_health_report/pg_health_report_advanced.sh --report-mode=recommended --format=html > /dev/null 2>&1
 
 Weekly Full Report Every Sunday at 6 AM:
+
 0 6 * * 0 /home/postgres/pg_health_report/pg_health_report_advanced.sh --report-mode=full --format=html > /dev/null 2>&1
 
